@@ -1,0 +1,87 @@
+/* General resets */
+body, h1, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Hero section with background image */
+.hero {
+  position: relative;
+  background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.donate-btn {
+  background-color: #f4c542;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.donate-btn:hover {
+  background-color: #e6b800;
+}
+
+.subtext a {
+  color: #f4c542;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer-content p {
+  font-size: 1rem;
+}
